@@ -1,0 +1,11 @@
+{
+  "token": " Bot Token here",
+  "ownerId": "Your ID",
+  "bugReportChannelId": "bug Report Channel Id",
+  "feedbackChannelId": "feedback Channel Id",
+  "serverLogId": "server Log Id",
+  "apiKeys": {
+    "catApi": "your_API_key_here",
+    "googleApi": "Bot Google API Key"
+  }
+}
