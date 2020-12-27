@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://sabattle@github.com/sabattle/CalypsoBot.git"
+    "url": "git+https://sabattle@github.com/sabattle/AndromedaBot.git"
   },
   "author": "Sebastian Battle",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/sabattle/CalypsoBot/issues"
+    "url": "https://github.com/sabattle/AndromedaBot/issues"
   },
-  "homepage": "https://github.com/sabattle/CalypsoBot#readme"
+  "homepage": "https://github.com/sabattle/AndromedaBot#readme"
 }

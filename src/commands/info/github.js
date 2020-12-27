@@ -8,16 +8,16 @@ module.exports = class GitHubCommand extends Command {
       name: 'github',
       aliases: ['gh', 'repo'],
       usage: 'github',
-      description: 'Displays the link to Calypso\'s GitHub repository.',
+      description: 'Displays the link to Andromeda\'s GitHub repository.',
       type: client.types.INFO
     });
   }
   run(message) {
     const embed = new MessageEmbed()
       .setTitle('GitHub Link')
-      .setThumbnail('https://raw.githubusercontent.com/sabattle/CalypsoBot/develop/data/images/Calypso.png')
+      .setThumbnail('https://raw.githubusercontent.com/sabattle/AndromedaBot/develop/data/images/Andromeda.png')
       .setDescription(oneLine`
-        Click [here](https://github.com/sabattle/CalypsoBot) to to visit my GitHub repository!
+        Click [here](https://github.com/sabattle/AndromedaBot) to to visit my GitHub repository!
         Please support me by starring ⭐ the repo, and feel free to comment about issues or suggestions!
       `)
       .addField('Other Links',
