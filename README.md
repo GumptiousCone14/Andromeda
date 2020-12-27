@@ -1,6 +1,6 @@
 # Andromeda
 
-[![GitHub Stars](https://img.shields.io/github/stars/IgorAntun/node-chat.svg)](https://github.com/GumptiousCone14/Andromeda) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/GumptiousCone14/Andromeda) [![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://igorantun.com/chat)
+[![GitHub Stars](https://img.shields.io/github/stars/Andromeda/node-chat.svg)](https://github.com/GumptiousCone14/Andromeda) [![GitHub Issues](https://img.shields.io/github/issues/IgorAntun/node-chat.svg)](https://github.com/IgorAntun/node-chat/issues) [![Current Version](https://img.shields.io/badge/version-0.0.1-red.svg)](https://github.com/GumptiousCone14/Andromeda) [![Live Demo](https://img.shields.io/badge/demo-ofline-green.svg)](https://igorantun.com/chat)
 
 ## Features
 ```
