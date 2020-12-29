@@ -2,9 +2,9 @@ const config = require('./config.json');
 const Client = require('./src/Client.js');
 const { Intents } = require('discord.js');
 
+
 global.__basedir = __dirname;
 
-// Client setup
 const intents = new Intents();
 intents.add(
   'GUILD_PRESENCES',
@@ -14,7 +14,10 @@ intents.add(
   'GUILD_MESSAGES',
   'GUILD_MESSAGE_REACTIONS'
 );
+
+
 const client = new Client(config, { ws: { intents: intents } });
+
 
 // Initialize client
 function init() {
