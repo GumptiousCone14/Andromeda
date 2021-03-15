@@ -6,7 +6,8 @@ module.exports = async (client) => {
   ];
 
   // Update presence
-  client.user.setPresence({ status: 'online', activity: activities[0] });
+  
+  client.user.setPresence({ game: { name: 'test' , type: 'WATCHING' }, status: 'dnd', activity: activities[0] });
 
   let activity = 1;
 
@@ -121,4 +122,5 @@ module.exports = async (client) => {
 
   client.logger.info('Andromeda is now online');
   client.logger.info(`Andromeda is running on ${client.guilds.cache.size} server(s)`);
+  
 };

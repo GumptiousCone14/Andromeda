@@ -87,3 +87,4 @@ Andromeda is written in Discord.js. If you want to add a feature or work on the 
 ## Privacy:
 
 Please read the `PRIVACY.md` file.
+

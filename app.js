@@ -3,7 +3,6 @@ const Client = require('./src/Client.js');
 const { Intents } = require('discord.js');
 require('dotenv').config();
 
-
 global.__basedir = __dirname;
 
 const intents = new Intents();
