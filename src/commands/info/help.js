@@ -108,9 +108,9 @@ module.exports = class HelpCommand extends Command {
 
       embed.addField(
         '**Links**', 
-        '**[Invite Me](https://discordapp.com/oauth2/authorize?client_id=416451977380364288&scope=bot&permissions=403008599) | ' +
-        '[Support Server](https://discord.gg/pnYVdut) | ' +
-        '[Repository](https://github.com/sabattle/AndromedaBot)**'
+        '**[Invite Me]() | ' +
+        '[Support Server]() | ' +
+        '[Repository]()**'
       );
         
     }

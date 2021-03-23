@@ -27,7 +27,7 @@ module.exports = async (client) => {
      * FIND SETTINGS
      * ------------------------------------------------------------------------------------------------ */ 
     // Find mod log
-    const modLog = guild.channels.cache.find(c => c.name.replace('-', '').replace('s', '') === 'modlog' || 
+    const modLog = guild.channels.cache.find(c => c.name.replace('-', '').replace('s', '') === 'mod-log' || 
       c.name.replace('-', '').replace('s', '') === 'moderatorlog');
 
     // Find admin and mod roles
